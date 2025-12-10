@@ -46,7 +46,7 @@ The notebook runs on **Google Colab** (GPU recommended) or **Kaggle Notebooks**.
 - `scikit-learn`
 ---
 
-.
+---
 ├── Image_Classification_Colab.ipynb   # main notebook
 ├── README.md                          # this file
 ├── data/
@@ -54,6 +54,7 @@ The notebook runs on **Google Colab** (GPU recommended) or **Kaggle Notebooks**.
 │   └── test/                          # test / inference images (optional)
 └── models/
     └── dog_cat_cnn.h5                 # saved Keras model (if saved)
+---
 
 
 
