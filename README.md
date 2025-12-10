@@ -4,7 +4,6 @@ This project trains a Convolutional Neural Network (CNN) to classify images of *
 It demonstrates a complete deep-learning workflow including data preparation, augmentation, model training, evaluation, and prediction.
 
 ---
-
 ## 📌 1. Project Objectives
 
 - Build a **binary image classifier** (`dog` vs `cat`)
@@ -45,18 +44,12 @@ The notebook runs on **Google Colab** (GPU recommended) or **Kaggle Notebooks**.
 - `opencv-python`
 - `scikit-learn`
 ---
-
----
+## 📂 Project Structure
+```bash
 ├── Image_Classification_Colab.ipynb   # main notebook
 ├── README.md                          # this file
 ├── data/
-│   ├── train/                         # training images (cats & dogs)
-│   └── test/                          # test / inference images (optional)
-└── models/
-    └── dog_cat_cnn.h5                 # saved Keras model (if saved)
+│   ├── train/train                         # training images (cats & dogs)
+│   └── test/test                         # test / inference images (optional)
+           
 ---
-
-
-
-
-
